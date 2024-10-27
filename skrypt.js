@@ -29,9 +29,9 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     document.getElementById('messageError').textContent = '';
 
     // Pobierz wartości z formularza
-    const name = document.getElementById('name').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const message = document.getElementById('message').value.trim();
+    // const name = document.getElementById('name').value.trim();
+    // const email = document.getElementById('email').value.trim();
+    // const message = document.getElementById('message').value.trim();
 
     let valid = true; // Flaga walidacji
 
@@ -52,11 +52,5 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     if (message === '') {
         document.getElementById('messageError').textContent = 'Wiadomość jest wymagana.';
         valid = false;
-    }
-
-    // Jeśli wszystkie pola są poprawne, możesz przesłać formularz
-    if (valid) {
-        // Tutaj możesz dodać kod do wysłania formularza
-        alert('Formularz został wysłany pomyślnie!');
     }
 });
