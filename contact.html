@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width">
+
+
+    <link rel="stylesheet" href="style_home.css">
+    <!-- <script src="skrypt.js"></script> -->
+    <link href="https://fonts.googleapis.com/css2?family=Arima&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=DynaPuff:wght@400..700&family=Londrina+Sketch&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <a class="dynapuff-jakas btn" href="index.html" style="font-size: 50px;text-decoration: none;"> HipcioweLove
+            </a>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li class="butttonslogo">
+                    <a href="index.html"><img src="hippo-logo.png" alt="" width="50px" height="50px"></a>
+                    <!-- <a href="index.html" class="btn">HipcioLove</a> -->
+                </li>
+                <li class="buttons">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="buttons">
+                    <a href="galery.html">Gallery</a>
+                </li>
+                <li class="buttons">
+                    <a href="contact.html" class="btn">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        
+        <div class= "container_con">
+            📍 Dlaczego warto do nas dołączyć?
+            <ol>
+                <li>Wymiana wiedzy: Poznaj fascynujące fakty o hipopotamach, ich środowisku oraz zachowaniu. Nasze forum to doskonałe
+                miejsce, aby zadawać pytania i dzielić się informacjami.
+                </li>
+                <li>
+                Wydarzenia i konkursy: Uczestnicz w naszych ekscytujących wydarzeniach i konkursach, które celebrują hipopotamy w
+                najlepszy sposób! Zdobądź szansę na wygranie unikalnych nagród związanych z tymi uroczymi zwierzętami.
+                </li>
+                <li>
+                Ciekawe projekty: Angażuj się w projekty, które promują ochronę hipopotamów i ich siedlisk. Razem możemy wpływać na
+                przyszłość tych niesamowitych zwierząt!
+                </li>
+                <li>
+                Społeczność: Poznaj ludzi, którzy podzielają Twoją pasję. Nasza społeczność jest otwarta i przyjazna – każdy miłośnik
+                hipopotamów jest mile widziany!
+                </li>
+            </ol>
+            🌐 Dołącz do nas już dziś!
+        </div>
+        
+        <div class="gallery" style="background-color: rgb(168, 131, 202);">
+            <!-- <form action="" method="post">
+
+                <label for="typ">Jaki masz cel?</label>
+
+                <select id="typ">
+
+                    <option selected>Chcę być superfanem</option>
+                    <option>Chcę być fanem</option>
+                    <option>Zwykły obserwator</option>
+
+                </select>
+
+            </form>
+
+            <div>
+                <label>Podaj e-mail <input type="text" placeholder="nick@gmail.com"></label>
+            </div>
+            
+            <div>
+                <label>Wiadomość <input type="textarea" placeholder="Kocham hipcie bo..."></label>
+            </div>
+
+            <div>
+                <input type="submit" value="Submit">
+            </div> -->
+            <form id="contactForm" action="" method="post">
+                <label for="typ">Jaki masz cel?</label>
+                <select id="typ" name="typ" required>
+                    <option value="superfan" selected>Chcę być superfanem</option>
+                    <option value="fan">Chcę być fanem</option>
+                    <option value="obserwator">Zwykły obserwator</option>
+                </select>
+            
+                <div>
+                    <label for="email">Podaj e-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="nick@gmail.com" required>
+                </div>
+            
+                <div>
+                    <label for="message" style="vertical-align: top;">Wiadomość:</label>
+                    <textarea id="message" name="message" placeholder="Kocham hipcie, bo..." required></textarea>
+                </div>
+            
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+
+        <footer> © 2024 Kamila Ćwikła</footer>
+
+    </main>
+
+</body>
+
+</html>
