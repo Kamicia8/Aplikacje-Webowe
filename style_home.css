@@ -248,7 +248,7 @@ ol {
     }
 }
 
-@media only screen and (max-width: 550px) and (max-height: 9000px) {
+@media only screen and (max-width: 550px) {
     body {
         display: flex;
         flex-direction: column;
